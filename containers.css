@@ -1,0 +1,70 @@
+.quadrants {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  
+    padding: 20px;
+    justify-content: center; 
+}
+
+.quadrant1, .quadrant2, .quadrant3, .quadrant4 {
+    background-size: cover;
+    background-position: center;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   min-width:300px;
+}
+
+.linka {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Hover effect with full opacity */
+.quadrant1:hover, .quadrant2:hover, .quadrant3:hover, .quadrant4:hover {
+    opacity: 1;
+    
+}
+
+
+.quadrant1 {
+    background-image: url('photovoltaic-2138992_1280.jpg');
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+   
+ 
+}
+.quadrant2 {
+    background-image: url('pexels-pixabay-414905.jpg');
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+
+}
+.quadrant3 {
+    background-image: url('dollar-currency-money-us-dollar-47344.jpeg');
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+  
+}
+.quadrant4 {
+    background-image: url('pexels-pixabay-159397.jpg');
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+  
+}
+.linka{
+    color:#fff;
+    list-style: none;
+    text-decoration: none;
+}
+

@@ -1,0 +1,66 @@
+.quadrants {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.quadrant1 {
+    background-image: url('photovoltaic-2138992_1280.jpg');
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+   
+   opacity: 20%;
+}
+.quadrant2 {
+    background-image: url('pexels-pixabay-414905.jpg');
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+ 
+   opacity: 20%;
+}
+.quadrant3 {
+    background-image: url('pexels-john-guccione-wwwadvergroupcom-3483098.jpg');
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+  
+   opacity: 20%;
+}
+.quadrant4 {
+    background-image: url('pexels-pixabay-159397.jpg');
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+  
+   opacity: 20%;
+}
+.linka{
+    color:#fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.quadrant1:hover{
+    opacity: 100%;
+}
+
+.quadrant2:hover{
+    opacity: 100%;
+}
+.quadrant3:hover{
+    opacity: 100%;
+}
+.quadrant4:hover{
+    opacity: 100%;
+}
+
+.quadranttitle {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.quadrant-text {
+    font-size: 14px;
+}
