@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Reservation.css">
+    <link rel = "icon" href = 
+    "Brahmin.png" 
+            type = "image/x-icon" >
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html"><img class="logo" src="Brahmin.png" alt="logo"></a>
+      <li class="link-item"><a href="index.html" class="link">Home</a></li>
+  <li class="link-item"><a href="aboutus.html" class="link">About Us</a></li>
+  <li class="link-item"><a href="menu.html" class="link">Menu</a></li>
+  <li class="link-item"><a href="Reservation.html" class="link">Reservations</a></li>
+  </nav>
+  <section class="reservation-container">
+    <h1 class="reservation-title">Make a Reservation</h1>
+    <p class="reservation-subtitle">Plan your visit to Brahmin and enjoy an exceptional dining experience.</p>
+    
+    <div class="reservation-form-container">
+        <form class="reservation-form">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" placeholder="2" required>
+            </div>
+            <div class="form-group">
+                <label for="special-request">Special Requests:</label>
+                <textarea id="special-request" name="special-request" placeholder="Any dietary restrictions or special requests..."></textarea>
+            </div>
+            <button type="submit" class="submit-button">Reserve Your Table</button>
+        </form>
+    </div>
+</section>
+
+  <footer>
+    <footer class="footer-act">
+
+        <div class="footer-content">
+    
+            <div class="footer-section-about">
+              <h1 class="logo-text">Brahmin</h1>
+              <p>
+                At Brahmin, we celebrate the rich heritage of vegetarian Indian cuisine, blending tradition with modern tastes.
+              </p>
+         <img src="Brahmin.png" class="logof" alt="logo">
+            
+            <p class="footer-credit">Bringing Flavors from Home, One Bite at a Time.</p>
+              
+    
+      </footer>   
+</body>
+</html>
